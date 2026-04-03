@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Campus Wayfinder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Campus Wayfinder</h1>
+    <p>Navigate your campus with ease</p>
+  </div>
+
+  <div class="card">
+    <h2>Choose Your Destination</h2>
+
+    <div class="buttons">
+      <button onclick="startNavigation('library')">📚 Library</button>
+      <button onclick="startNavigation('registrar')">🧾 Registrar</button>
+      <button onclick="startNavigation('kings')">🍽 King’s Lounge</button>
+      <button onclick="startNavigation('purple')">🟣 Purple Palace</button>
+    </div>
+  </div>
+
+  <div id="viewer" class="card hidden">
+    <img id="stepImage" src="" alt="">
+    <p id="stepText"></p>
+
+    <div class="controls">
+      <button onclick="prevStep()">⬅ Back</button>
+      <button onclick="nextStep()">Next ➡</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

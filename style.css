@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #1f2f5c, #233b7a);
+  color: white;
+  text-align: center;
+}
+
+.header {
+  padding: 40px 20px;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.header p {
+  opacity: 0.8;
+}
+
+.card {
+  background: #2d3e6b;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 700px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #3b82f6, #2563eb);
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  transform: scale(1.03);
+}
+
+/* 🔥 IMAGE FIX */
+#stepImage {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;   /* keeps it smaller */
+  height: auto;
+  border-radius: 12px;
+}
+
+/* TEXT */
+#stepText {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* CONTROLS */
+.controls button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #2563eb;
+}
+
+.hidden {
+  display: none;
+}
