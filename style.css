@@ -38,16 +38,17 @@ h2 {
 .buttons button {
   display: block;
   width: 100%;
-  padding: 20px;
-  margin: 14px 0;
-  font-size: 22px;
-  font-weight: 600;
+  padding: 22px;
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 700;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
   background: linear-gradient(to right, #3b82f6, #2563eb);
   color: white;
   cursor: pointer;
   transition: 0.2s;
+  letter-spacing: 0.5px;
 }
 
 .buttons button:hover {
@@ -71,21 +72,29 @@ h2 {
   margin-top: 20px;
 }
 
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .controls button {
-  padding: 16px 28px;
-  margin: 14px;
-  border-radius: 10px;
+  padding: 20px 40px;
+  margin: 15px;
+  border-radius: 12px;
   border: none;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
   background: #3b82f6;
   color: white;
   cursor: pointer;
+  width: 45%;
+  max-width: 250px;
 }
 
 .controls button:hover {
   background: #2563eb;
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .hidden {
