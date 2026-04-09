@@ -9,7 +9,12 @@ cafeteria: [
   { img: "images/entrance.jpeg", text: "Enter through the main doors." },
   { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
   { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
-  { img: "images/caf1.jpeg", text: "You’ve arrived at the cafeteria seating area." }
+  { img: "images/caf1.jpeg", text: "Walk to the left of the cafeteria." },
+  { img: "images/cafe-1.jpeg", text: "Keep going this way." },
+  { img: "images/cafe-2.jpeg", text: "Head straight and turn right." },
+  { img: "images/cafe-3.jpeg", text: "Continue forward." },
+  { img: "images/cafe-4.jpeg", text: "Almost there." },
+  { img: "images/cafe-5.jpeg", text: "You’ve arrived at the cafeteria seating area." }
 ],
 
 security: [
