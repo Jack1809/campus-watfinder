@@ -4,6 +4,35 @@ let steps = [];
 // ALL ROUTES (.jpeg now)
 const routes = {
 
+cafeteria: [
+  { img: "images/theatre.jpg", text: "Start outside Theatre & Arts building." },
+  { img: "images/entrance.jpeg", text: "Enter through the main doors." },
+  { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
+  { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
+  { img: "images/caf1.jpeg", text: "You’ve arrived at the cafeteria seating area." }
+],
+
+security: [
+  { img: "images/theatre.jpg", text: "Start outside Theatre & Arts building." },
+  { img: "images/entrance.jpeg", text: "Enter through the main doors." },
+  { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
+  { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
+  { img: "images/caf1.jpeg", text: "Walk through the cafeteria." },
+  { img: "images/caf-exit.jpeg", text: "Exit the cafeteria." },
+  { img: "images/security-post.jpeg", text: "You’ve arrived at the security post." }
+],
+
+bookstore: [
+  { img: "images/theatre.jpg", text: "Start outside Theatre & Arts building." },
+  { img: "images/entrance.jpeg", text: "Enter through the main doors." },
+  { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
+  { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
+  { img: "images/caf1.jpeg", text: "Walk through the cafeteria." },
+  { img: "images/caf-exit.jpeg", text: "Exit the cafeteria." },
+  { img: "images/security-post.jpeg", text: "Pass the security desk." },
+  { img: "images/bookstore.jpeg", text: "You’ve arrived at the bookstore." }
+],
+
   library: [
     { img: "images/theatre.jpg", text: "Start outside Theatre & Arts building." },
     { img: "images/entrance.jpeg", text: "Enter through the main doors." },
