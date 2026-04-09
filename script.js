@@ -1,7 +1,7 @@
 let currentStep = 0;
 let steps = [];
 
-// 🔥 ALL ROUTES (.jpeg now)
+// ALL ROUTES (.jpeg now)
 const routes = {
 
   library: [
@@ -10,6 +10,11 @@ const routes = {
     { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
     { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
     { img: "images/caf1.jpeg", text: "Walk to the left of the cafeteria." },
+    { img: "images/cafe-1.jpeg", text: "Keep going thsi way." },
+    { img: "images/cafe-2.jpeg", text: "Head straight and turn to the first right." },
+    { img: "images/cafe-3.jpeg", text: "You should have this view from the first right." },
+    { img: "images/cafe-4.jpeg", text: "Head straight down." },
+    { img: "images/cafe-5.jpeg", text: "Go through the middle of both sitting areas till you get to the exit door." },
     { img: "images/caf-exit.jpeg", text: "Now exit the cafeteria." },
     { img: "images/security-post.jpeg", text: "Pass the security desk." },
     { img: "images/bookstore.jpeg", text: "Walk towards the bookstore and turn left" },
@@ -24,6 +29,11 @@ const routes = {
     { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
     { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
     { img: "images/caf1.jpeg", text: "Walk to the left of the cafeteria." },
+    { img: "images/cafe-1.jpeg", text: "Keep going thsi way." },
+    { img: "images/cafe-2.jpeg", text: "Head straight and turn to the first right." },
+    { img: "images/cafe-3.jpeg", text: "You should have this view from the first right." },
+    { img: "images/cafe-4.jpeg", text: "Head straight down." },
+    { img: "images/cafe-5.jpeg", text: "Go through the middle of both sitting areas till you get to the exit door." },
     { img: "images/caf-exit.jpeg", text: "Now exit the cafeteria." },
     { img: "images/security-post.jpeg", text: "Pass the security desk." },
     { img: "images/bookstore.jpeg", text: "Walk towards the bookstore and turn left" },
@@ -38,6 +48,11 @@ const routes = {
     { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
     { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
     { img: "images/caf1.jpeg", text: "Walk to the left of the cafeteria." },
+    { img: "images/cafe-1.jpeg", text: "Keep going thsi way." },
+    { img: "images/cafe-2.jpeg", text: "Head straight and turn to the first right." },
+    { img: "images/cafe-3.jpeg", text: "You should have this view from the first right." },
+    { img: "images/cafe-4.jpeg", text: "Head straight down." },
+    { img: "images/cafe-5.jpeg", text: "Go through the middle of both sitting areas till you get to the exit door." },
     { img: "images/caf-exit.jpeg", text: "Now exit the cafeteria." },
     { img: "images/security-post.jpeg", text: "Pass the security desk." },
     { img: "images/bookstore.jpeg", text: "Walk towards the bookstore and turn left" },
@@ -56,6 +71,11 @@ const routes = {
     { img: "images/theatre-walkway.jpeg", text: "Walk into the main lobby." },
     { img: "images/caf-entrance.jpeg", text: "Enter the cafeteria." },
     { img: "images/caf1.jpeg", text: "Walk to the left of the cafeteria." },
+    { img: "images/cafe-1.jpeg", text: "Keep going thsi way." },
+    { img: "images/cafe-2.jpeg", text: "Head straight and turn to the first right." },
+    { img: "images/cafe-3.jpeg", text: "You should have this view from the first right." },
+    { img: "images/cafe-4.jpeg", text: "Head straight down." },
+    { img: "images/cafe-5.jpeg", text: "Go through the middle of both sitting areas till you get to the exit door." },
     { img: "images/caf-exit.jpeg", text: "Now exit the cafeteria." },
     { img: "images/security-post.jpeg", text: "Pass the security desk." },
     { img: "images/bookstore.jpeg", text: "Walk towards the bookstore and turn left" },
@@ -71,7 +91,7 @@ const routes = {
 };
 
 
-// 🚀 START
+// START
 function startNavigation(destination) {
   steps = routes[destination];
   currentStep = 0;
@@ -82,7 +102,7 @@ function startNavigation(destination) {
 }
 
 
-// 📸 SHOW STEP
+// SHOW STEP
 function showStep() {
   const step = steps[currentStep];
 
@@ -92,7 +112,7 @@ function showStep() {
 }
 
 
-// ➡ NEXT
+// NEXT
 function nextStep() {
   if (currentStep < steps.length - 1) {
     currentStep++;
