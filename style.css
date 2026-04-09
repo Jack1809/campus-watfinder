@@ -4,6 +4,7 @@ body {
   background: linear-gradient(to bottom, #1f2f5c, #233b7a);
   color: white;
   text-align: center;
+  font-size: 18px;
 }
 
 .header {
@@ -11,18 +12,19 @@ body {
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: 42px;
   margin: 0;
 }
 
 .header p {
-  opacity: 0.8;
+  opacity: 0.9;
+  font-size: 18px;
 }
 
 .card {
   background: #2d3e6b;
   margin: 20px auto;
-  padding: 25px;
+  padding: 30px;
   border-radius: 15px;
   width: 90%;
   max-width: 700px;
@@ -30,16 +32,18 @@ body {
 
 h2 {
   margin-bottom: 20px;
+  font-size: 26px;
 }
 
 .buttons button {
   display: block;
   width: 100%;
-  padding: 15px;
-  margin: 10px 0;
-  font-size: 16px;
+  padding: 18px;
+  margin: 12px 0;
+  font-size: 20px;
+  font-weight: 600;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   background: linear-gradient(to right, #3b82f6, #2563eb);
   color: white;
   cursor: pointer;
@@ -47,31 +51,33 @@ h2 {
 }
 
 .buttons button:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
 }
 
-/* 🔥 IMAGE FIX */
 #stepImage {
   display: block;
-  margin: 20px auto;
-  width: 80%;
-  max-width: 500px;   /* keeps it smaller */
+  margin: 25px auto;
+  width: 90%;
+  max-width: 600px;
   height: auto;
   border-radius: 12px;
 }
 
-/* TEXT */
 #stepText {
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 15px;
 }
 
-/* CONTROLS */
 .controls button {
-  padding: 10px 20px;
-  margin: 10px;
-  border-radius: 8px;
+  padding: 14px 24px;
+  margin: 12px;
+  border-radius: 10px;
   border: none;
+  font-size: 18px;
+  font-weight: 500;
   background: #3b82f6;
   color: white;
   cursor: pointer;
@@ -79,6 +85,7 @@ h2 {
 
 .controls button:hover {
   background: #2563eb;
+  transform: scale(1.05);
 }
 
 .hidden {
