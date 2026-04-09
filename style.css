@@ -4,7 +4,7 @@ body {
   background: linear-gradient(to bottom, #1f2f5c, #233b7a);
   color: white;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .header {
@@ -12,13 +12,13 @@ body {
 }
 
 .header h1 {
-  font-size: 42px;
+  font-size: 48px;
   margin: 0;
 }
 
 .header p {
   opacity: 0.9;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .card {
@@ -32,15 +32,15 @@ body {
 
 h2 {
   margin-bottom: 20px;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .buttons button {
   display: block;
   width: 100%;
-  padding: 18px;
-  margin: 12px 0;
-  font-size: 20px;
+  padding: 20px;
+  margin: 14px 0;
+  font-size: 22px;
   font-weight: 600;
   border: none;
   border-radius: 12px;
@@ -58,26 +58,26 @@ h2 {
 #stepImage {
   display: block;
   margin: 25px auto;
-  width: 90%;
-  max-width: 600px;
+  width: 95%;
+  max-width: 650px;
   height: auto;
   border-radius: 12px;
 }
 
 #stepText {
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-top: 15px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-top: 20px;
 }
 
 .controls button {
-  padding: 14px 24px;
-  margin: 12px;
+  padding: 16px 28px;
+  margin: 14px;
   border-radius: 10px;
   border: none;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   background: #3b82f6;
   color: white;
   cursor: pointer;
